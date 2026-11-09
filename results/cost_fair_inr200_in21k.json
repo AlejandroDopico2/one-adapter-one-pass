@@ -1,0 +1,58 @@
+{
+  "runs/fair/inr200_in21k/ease_b3_s1993/20261014T165111Z": {
+    "method": "ease",
+    "backbone_params": 85798656,
+    "method_params": 3818400,
+    "stored_mb": 14.5660400390625,
+    "full_passes_per_image": 10.0,
+    "block_passes_per_image": 10.0,
+    "gflops_per_image": 352.13574144,
+    "latency_ms_b1_median": 49.58529301802628,
+    "throughput_img_s_b64": 93.55553717364545,
+    "peak_mem_mb_b64": 1572.724609375,
+    "energy_j_per_1000_img": 4753.6671875,
+    "gpu_processes": 1
+  },
+  "runs/fair/inr200_in21k/sema_b3_s1993/20261014T183438Z": {
+    "method": "sema",
+    "backbone_params": 85798656,
+    "method_params": 2244884,
+    "stored_mb": 8.580787658691406,
+    "full_passes_per_image": 1.0,
+    "block_passes_per_image": 1.0,
+    "gflops_per_image": 35.242641408,
+    "latency_ms_b1_median": 6.12717799958773,
+    "throughput_img_s_b64": 911.9418179662473,
+    "peak_mem_mb_b64": 2021.2578125,
+    "energy_j_per_1000_img": 478.98281249999997,
+    "gpu_processes": 1
+  },
+  "runs/fair/inr200_in21k/tuna_b3_s1993/20261014T180402Z": {
+    "method": "tuna",
+    "backbone_params": 85798656,
+    "method_params": 2892480,
+    "stored_mb": 461.619873046875,
+    "full_passes_per_image": 11.0,
+    "block_passes_per_image": 11.0,
+    "gflops_per_image": 387.349315584,
+    "latency_ms_b1_median": 48.77538699656725,
+    "throughput_img_s_b64": 85.01185157444066,
+    "peak_mem_mb_b64": 1613.61083984375,
+    "energy_j_per_1000_img": 5252.1046875,
+    "gpu_processes": 1
+  },
+  "runs/sema_thr/inr200_in21k/sema_t10_s1993/20261015T014734Z": {
+    "method": "sema",
+    "backbone_params": 85798656,
+    "method_params": 3072557,
+    "stored_mb": 11.743854522705078,
+    "full_passes_per_image": 1.0,
+    "block_passes_per_image": 1.0,
+    "gflops_per_image": 35.329801728,
+    "latency_ms_b1_median": 6.832696992205456,
+    "throughput_img_s_b64": 866.5721314113266,
+    "peak_mem_mb_b64": 2878.099609375,
+    "energy_j_per_1000_img": 519.05625,
+    "gpu_processes": 1
+  }
+}

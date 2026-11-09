@@ -1,0 +1,3 @@
+method: frozen_linear
+optimizer: sgd
+momentum: 0.9

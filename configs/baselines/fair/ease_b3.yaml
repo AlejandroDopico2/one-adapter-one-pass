@@ -1,0 +1,15 @@
+# Fair budget (Oct 14): same adapted blocks (3-11) and bottleneck (16) as ours; rest = original recipe.
+method: ease
+learning_rate: 0.05
+weight_decay: 0.005
+batch_size: 16
+adapter_dim: 16
+adapter_scale: 0.1
+adapter_dropout: 0.1
+alpha: 0.1
+beta: 0.0
+include_initial_features: false
+use_reweight: true
+recalculate_similarity: true
+diagonal_only: false
+adapt_start_layer: 3

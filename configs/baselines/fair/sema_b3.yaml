@@ -1,0 +1,13 @@
+# Fair budget (Oct 14): same adapted blocks (3-11) and bottleneck (16) as ours; rest = original recipe.
+method: sema
+learning_rate: 0.005
+adapter_dim: 16
+adapter_dropout: 0.0  # official forward never applies its 0.1
+descriptor_dim: 128
+descriptor_learning_rate: 0.01
+descriptor_epochs: 20
+record_size: 500
+expansion_threshold: 2.0
+detect_batch_size: 128
+adapt_start_layer: 3
+adapt_end_layer: 11

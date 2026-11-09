@@ -1,0 +1,15 @@
+# Standard CIFAR-100 protocol: B0-Inc5 (20 tasks), shuffled, as the official
+# EASE/TUNA configs. Backbone: AugReg ViT-B/16 IN21k, unnormalised [0,1] inputs.
+dataset: cifar100
+model_name: vit_base_patch16_224.augreg_in21k
+preprocessing: sema
+num_classes: 100
+initial_classes: 5
+increment_classes: 5
+class_order_manifest: configs/manifests/cifar100_identity.yaml
+batch_size: 32
+workers: 4
+epochs: 20
+learning_rate: 0.005
+weight_decay: 0.0005
+momentum: 0.9

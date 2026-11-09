@@ -1,0 +1,16 @@
+# Standard ImageNet-R protocol: 200 classes, B0-Inc20 (10 tasks), shuffled.
+# Backbone: AugReg ViT-B/16 IN21k (the EASE/TUNA official in21k setting; the
+# official code feeds unnormalised [0,1] images, as our "sema" preprocessing).
+dataset: imagenet_r
+model_name: vit_base_patch16_224.augreg_in21k
+preprocessing: sema
+num_classes: 200
+initial_classes: 20
+increment_classes: 20
+class_order_manifest: configs/manifests/imagenet_r_identity.yaml
+batch_size: 32
+workers: 4
+epochs: 20
+learning_rate: 0.005
+weight_decay: 0.0005
+momentum: 0.9

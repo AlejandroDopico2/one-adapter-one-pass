@@ -1,0 +1,23 @@
+# Ablation (Fig. 1, "comp."): shared adapter + drift compensation, no distillation.
+method: shared_adapter
+optimizer: sgd
+learning_rate: 0.005
+probe_learning_rate: 0.005
+weight_decay: 0.0005
+adapter_weight_decay: 0.0005
+momentum: 0.9
+epochs: 20
+cosine_schedule: true
+amp: false
+adapter_bottleneck: 16
+adapter_scale: 1.0
+adapter_dropout: 0.1
+adapter_layernorm: true
+adapt_start_layer: 3
+adapt_end_layer: 11
+mode: shared
+mask_old_probe_logits: true
+normalize_classifier_features: true
+rolann_ridge: 0.1
+protect: none
+compensate: true

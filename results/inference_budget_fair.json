@@ -1,0 +1,122 @@
+{
+  "runs/fair/cifar_in21k/tuna_b3_s1993": {
+    "method": "tuna",
+    "accuracy": {
+      "full": 90.78,
+      "merged": 83.59,
+      "last": 89.39,
+      "merged+last": 88.16,
+      "specific": 90.75,
+      "oracle_specific": 95.99
+    },
+    "passes": {
+      "full": 21,
+      "merged": 1,
+      "last": 1,
+      "merged+last": 2,
+      "specific": 20,
+      "oracle_specific": 1
+    },
+    "logged_final": 90.78
+  },
+  "runs/fair/cifar_in21k/tuna_b3_s1994": {
+    "method": "tuna",
+    "accuracy": {
+      "full": 90.16,
+      "merged": 84.14,
+      "last": 87.69,
+      "merged+last": 87.25,
+      "specific": 90.08,
+      "oracle_specific": 96.43
+    },
+    "passes": {
+      "full": 21,
+      "merged": 1,
+      "last": 1,
+      "merged+last": 2,
+      "specific": 20,
+      "oracle_specific": 1
+    },
+    "logged_final": 90.16
+  },
+  "runs/fair/cifar_in21k/tuna_b3_s1995": {
+    "method": "tuna",
+    "accuracy": {
+      "full": 90.76,
+      "merged": 84.35,
+      "last": 88.84,
+      "merged+last": 88.48,
+      "specific": 90.79,
+      "oracle_specific": 95.78
+    },
+    "passes": {
+      "full": 21,
+      "merged": 1,
+      "last": 1,
+      "merged+last": 2,
+      "specific": 20,
+      "oracle_specific": 1
+    },
+    "logged_final": 90.76
+  },
+  "runs/fair/inr200_in21k/tuna_b3_s1993": {
+    "method": "tuna",
+    "accuracy": {
+      "full": 79.25,
+      "merged": 72.6,
+      "last": 75.45,
+      "merged+last": 76.5,
+      "specific": 78.8,
+      "oracle_specific": 88.55
+    },
+    "passes": {
+      "full": 11,
+      "merged": 1,
+      "last": 1,
+      "merged+last": 2,
+      "specific": 10,
+      "oracle_specific": 1
+    },
+    "logged_final": 79.25
+  },
+  "runs/fair/inr200_in21k/tuna_b3_s1994": {
+    "method": "tuna",
+    "accuracy": {
+      "full": 78.72,
+      "merged": 72.07,
+      "last": 75.8,
+      "merged+last": 76.45,
+      "specific": 78.48,
+      "oracle_specific": 88.8
+    },
+    "passes": {
+      "full": 11,
+      "merged": 1,
+      "last": 1,
+      "merged+last": 2,
+      "specific": 10,
+      "oracle_specific": 1
+    },
+    "logged_final": 78.72
+  },
+  "runs/fair/inr200_in21k/tuna_b3_s1995": {
+    "method": "tuna",
+    "accuracy": {
+      "full": 78.5,
+      "merged": 71.47,
+      "last": 75.9,
+      "merged+last": 76.22,
+      "specific": 78.33,
+      "oracle_specific": 88.47
+    },
+    "passes": {
+      "full": 11,
+      "merged": 1,
+      "last": 1,
+      "merged+last": 2,
+      "specific": 10,
+      "oracle_specific": 1
+    },
+    "logged_final": 78.5
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "runs/std/inr200_in21k/distcomp_s1993/20261006T195102Z": {
+    "method": "cara",
+    "backbone_params": 85798656,
+    "method_params": 395864,
+    "stored_mb": 4.942298889160156,
+    "full_passes_per_image": 1.0,
+    "block_passes_per_image": 1.0,
+    "gflops_per_image": 35.213574544,
+    "latency_ms_b1_median": 5.415157414972782,
+    "throughput_img_s_b64": 932.3598386295339,
+    "peak_mem_mb_b64": 859.4775390625,
+    "energy_j_per_1000_img": 455.565625,
+    "gpu_processes": 1
+  },
+  "runs/std/inr200_in21k/ease_s1993/20261006T195103Z": {
+    "method": "ease",
+    "backbone_params": 85798656,
+    "method_params": 13432320,
+    "stored_mb": 51.240234375,
+    "full_passes_per_image": 10.0,
+    "block_passes_per_image": 10.0,
+    "gflops_per_image": 355.9120896,
+    "latency_ms_b1_median": 57.30979796499014,
+    "throughput_img_s_b64": 92.61712948127301,
+    "peak_mem_mb_b64": 1609.3896484375,
+    "energy_j_per_1000_img": 4791.0546875,
+    "gpu_processes": 1
+  },
+  "runs/std/inr200_in21k/nonecomp_s1993/20261006T195103Z": {
+    "method": "cara",
+    "backbone_params": 85798656,
+    "method_params": 395864,
+    "stored_mb": 4.942298889160156,
+    "full_passes_per_image": 1.0,
+    "block_passes_per_image": 1.0,
+    "gflops_per_image": 35.213574544,
+    "latency_ms_b1_median": 5.564620718359947,
+    "throughput_img_s_b64": 927.1084370838465,
+    "peak_mem_mb_b64": 1683.61181640625,
+    "energy_j_per_1000_img": 474.6359375,
+    "gpu_processes": 1
+  },
+  "runs/std/inr200_in21k/sema_s1993/20261006T212213Z": {
+    "method": "sema",
+    "backbone_params": 85798656,
+    "method_params": 1059860,
+    "stored_mb": 4.048789978027344,
+    "full_passes_per_image": 1.0,
+    "block_passes_per_image": 1.0,
+    "gflops_per_image": 35.242641408,
+    "latency_ms_b1_median": 6.630446761846542,
+    "throughput_img_s_b64": 912.6300590706827,
+    "peak_mem_mb_b64": 2385.09375,
+    "energy_j_per_1000_img": 485.1609375,
+    "gpu_processes": 1
+  },
+  "runs/std/inr200_in21k/tuna_s1993/20261006T195103Z": {
+    "method": "tuna",
+    "backbone_params": 85798656,
+    "method_params": 3805440,
+    "stored_mb": 465.1025390625,
+    "full_passes_per_image": 11.0,
+    "block_passes_per_image": 11.0,
+    "gflops_per_image": 387.668852736,
+    "latency_ms_b1_median": 58.1219345331192,
+    "throughput_img_s_b64": 84.91414420949916,
+    "peak_mem_mb_b64": 3621.94091796875,
+    "energy_j_per_1000_img": 5209.596875,
+    "gpu_processes": 1
+  }
+}

@@ -1,0 +1,15 @@
+# VTAB-CIL concentration sweep: every task mixes exactly k=4 domains (cyclic chunks), all orders shuffled. Backbone: AugReg IN21k.
+dataset: vtab
+model_name: vit_base_patch16_224.augreg_in21k
+preprocessing: sema
+num_classes: 50
+initial_classes: 10
+increment_classes: 10
+class_order_manifest: configs/manifests/vtab_identity.yaml
+batch_size: 32
+workers: 4
+epochs: 20
+learning_rate: 0.005
+weight_decay: 0.0005
+momentum: 0.9
+concentration_k: 4

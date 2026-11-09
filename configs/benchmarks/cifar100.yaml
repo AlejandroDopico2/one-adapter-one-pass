@@ -1,0 +1,10 @@
+dataset: cifar100
+num_classes: 100
+initial_classes: 10
+increment_classes: 10
+class_order_manifest: configs/manifests/cifar100_identity.yaml
+batch_size: 64
+workers: 4
+epochs: 10
+learning_rate: 0.01
+weight_decay: 0.0

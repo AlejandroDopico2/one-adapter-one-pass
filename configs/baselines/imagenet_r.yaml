@@ -1,0 +1,13 @@
+# Shared CIL protocol for the first ImageNet-R baselines.
+dataset: imagenet_r
+num_classes: 200
+initial_classes: 20
+increment_classes: 20
+class_order_manifest: configs/manifests/imagenet_r_identity.yaml
+batch_size: 32
+workers: 4
+epochs: 20
+optimizer: sgd
+momentum: 0.9
+learning_rate: 0.01
+weight_decay: 0.0005

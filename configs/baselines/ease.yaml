@@ -1,0 +1,14 @@
+# EASE on the shared ImageNet-R baseline protocol.
+method: ease
+learning_rate: 0.05
+weight_decay: 0.005
+batch_size: 16
+adapter_dim: 64
+adapter_scale: 0.1
+adapter_dropout: 0.1
+alpha: 0.1
+beta: 0.0
+include_initial_features: false
+use_reweight: true
+recalculate_similarity: true
+diagonal_only: false

@@ -1,0 +1,16 @@
+# Fig. 2 control: domain-isolated oracle + drift compensation.
+method: srw
+learning_rate: 0.005
+weight_decay: 0.0005
+momentum: 0.9
+adapter_bottleneck: 16
+adapter_scale: 1.0
+adapter_dropout: 0.1
+adapter_layernorm: true
+adapt_start_layer: 9
+slots: 5
+assignment: oracle
+distill_lambda: 1.0
+rolann_ridge: 0.1
+probe_scale: 16.0
+compensate: true

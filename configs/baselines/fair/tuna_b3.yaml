@@ -1,0 +1,17 @@
+# Fair budget (Oct 14): same adapted blocks (3-11) and bottleneck (16) as ours; rest = original recipe.
+method: tuna
+learning_rate: 0.02
+weight_decay: 0.0005
+batch_size: 32
+epochs: 10
+adapter_dim: 16
+adapter_scale: 0.1
+adapter_dropout: 0.1
+scale: 20.0
+margin: 0.0
+orth_reg: 0.001
+use_orth: true
+ca_epochs: 30
+ca_lr: 0.005
+ca_decay: true
+adapt_start_layer: 3
